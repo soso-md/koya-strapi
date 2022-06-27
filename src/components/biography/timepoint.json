@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_biography_timepoints",
+  "info": {
+    "displayName": "timepoint",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "event": {
+      "type": "text"
+    }
+  }
+}

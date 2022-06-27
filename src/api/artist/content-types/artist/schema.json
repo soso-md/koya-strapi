@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artists",
+  "info": {
+    "singularName": "artist",
+    "pluralName": "artists",
+    "displayName": "Artist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "artist.artwork",
+        "artist.biography",
+        "artist.description",
+        "artist.fullscreen-image",
+        "artist.quote"
+      ]
+    },
+    "artworks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artwork.artwork",
+      "mappedBy": "artist"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "richtext": {
+      "type": "richtext"
+    }
+  }
+}

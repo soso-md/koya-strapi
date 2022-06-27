@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_artist_descriptions",
+  "info": {
+    "displayName": "description",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_artist_fullscreen_images",
+  "info": {
+    "displayName": "fullscreen image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

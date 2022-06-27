@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_artist_artworks",
+  "info": {
+    "displayName": "Artwork",
+    "icon": "paint-brush"
+  },
+  "options": {},
+  "attributes": {
+    "artworks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artwork.artwork"
+    }
+  }
+}

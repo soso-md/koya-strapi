@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_artist_biographies",
+  "info": {
+    "displayName": "biography",
+    "icon": "fingerprint"
+  },
+  "options": {},
+  "attributes": {
+    "timeline": {
+      "displayName": "timepoint",
+      "type": "component",
+      "repeatable": true,
+      "component": "biography.timepoint"
+    }
+  }
+}
