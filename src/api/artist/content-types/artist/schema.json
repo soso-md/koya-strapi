@@ -31,7 +31,8 @@
         "artist.biography",
         "artist.description",
         "artist.fullscreen-image",
-        "artist.quote"
+        "artist.quote",
+        "artist.small-image"
       ]
     },
     "artworks": {
