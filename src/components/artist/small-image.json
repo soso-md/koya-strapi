@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_artist_small_images",
+  "info": {
+    "displayName": "smallImage",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

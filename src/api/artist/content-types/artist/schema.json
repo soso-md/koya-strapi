@@ -28,7 +28,6 @@
     "components": {
       "type": "dynamiczone",
       "components": [
-        "artist.artwork",
         "artist.biography",
         "artist.description",
         "artist.fullscreen-image",
@@ -45,9 +44,6 @@
       "type": "uid",
       "targetField": "name",
       "required": true
-    },
-    "richtext": {
-      "type": "richtext"
     }
   }
 }
